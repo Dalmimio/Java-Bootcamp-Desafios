@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* { 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    font-family: 'Roboto', sans-serif;
+    color: #04146c;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width: 50px;
+}
+
+
+header{
+    text-align: center;
+}
+nav a{
+    padding: 30px;
+}
+
+main form{
+    display: block;
+    align-items: center;
+    margin-left: 15px;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #2c00cc;
+    
+}
+p{
+    font-family: 'Roboto', serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #04146c;
+    
+}
+
+label{
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #04146c;
+}
+
+
+input, textarea{
+    margin: 10px;
+    width: 500px;
+    display: block;
+    margin-left: 0%;
+    border: solid 1px #04146c;
+}
+
+input{
+    height: 50px;
+   
+}
+textarea{
+    height: 100px;
+}
+span{
+    color: red;
+}
+.botones{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 32px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    display: inline;
+    border-radius: 5%;
+    margin: 10px;
+
+}
+#reset{
+    background-color: #f98500;
+    
+}
+#enviar{
+    background-color: #2c00cc;
+}

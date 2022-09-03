@@ -1,0 +1,44 @@
+/*EJERCICIO 1*/
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+body{
+    background-color: #edf7ff;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex: auto;
+    text-align: left;
+}
+
+h1{
+    font-size: 88pt;
+    font-family:MuseoModerno;
+    color: #0a2ff1;
+}
+h2{
+    font-family: Asap, regular;
+    font-size: 39pt;
+    color: #0a2ff1;
+}
+p{
+    font-family: Asap;
+    font-size: 25pt;
+    color: #04146c;
+}
+.mendoza{
+    font-family: MuseoModerno;
+    font-size: 36pt;
+    color: #0a2ff1;
+}
+
+ul li{
+    font-family: Asap;
+    font-size: 25pt;
+    color: #04146c;
+}
+
+.agua{
+    font-family: MuseoModerno;
+    font-size: 149pt;
+    color: #8a9af1;
+}
