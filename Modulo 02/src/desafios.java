@@ -1,16 +1,14 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class desafios {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// DESAFIO 1
 		/*generar un programa que permita al usuario ingresar 
-		por consola en la misma línea el primer nombre y 
+		por consola en la misma lï¿½nea el primer nombre y 
 		primer apellido y realice las siguientes operaciones:
 		1. Mostrar el nombre y apellido por separado.
-		2. Mostrar las iniciales en mayúsculas*/
+		2. Mostrar las iniciales en mayï¿½sculas*/
 		
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Ingrese su primer nombre y primer apellido: ");
@@ -33,11 +31,11 @@ public class desafios {
 		// DESAFIO 2
 		/*
 		Realizar un programa que permita al usuario ingresar 
-		por consola dos números y realice las siguientes 
+		por consola dos nï¿½meros y realice las siguientes 
 		operaciones:
 		1. El usuario debe poder ingresar la cantidad de 
 		decimales que desea ver en el resultado.
-		2. Sacar la potencia de los números ingresados*/
+		2. Sacar la potencia de los nï¿½meros ingresados*/
 		
 		int cantidadDecimales;
 		float base, exponente;
@@ -66,9 +64,9 @@ public class desafios {
 		// DESAFIO 3
 		/*
  		Se pide que ingrese por consola dos letras y realice
-		la siguiente operación:
-		1. Mostrar la representación ASCII de las letras en 
-		minúsculas y mayúsculas
+		la siguiente operaciï¿½n:
+		1. Mostrar la representaciï¿½n ASCII de las letras en 
+		minï¿½sculas y mayï¿½sculas
 		*/
 		String letra1;
 		String letra2;

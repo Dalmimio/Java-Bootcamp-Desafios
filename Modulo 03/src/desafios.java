@@ -3,19 +3,18 @@ import java.util.Scanner;
 public class desafios {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//E J E R C I C I O 1
-		//Dado el siguiente código: int nro1 = 100, nro2 = 500, nro3 = 250; Informar cuál de los tres números es mayor.
+		//Dado el siguiente cï¿½digo: int nro1 = 100, nro2 = 500, nro3 = 250; Informar cuï¿½l de los tres nï¿½meros es mayor.
 		int num1, num2, num3;
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.print("Ingrese el primer número: ");
+		System.out.print("Ingrese el primer nï¿½mero: ");
 		num1 = teclado.nextInt();
 		
-		System.out.print("Ingrese el segundo número: ");
+		System.out.print("Ingrese el segundo nï¿½mero: ");
 		num2 = teclado.nextInt();
 		
-		System.out.print("Ingrese el tercer número: ");
+		System.out.print("Ingrese el tercer nï¿½mero: ");
 		num3 = teclado.nextInt();
 				
 		if (num1>num2 && num1>num3)
@@ -28,13 +27,13 @@ public class desafios {
 		
 		// E J E R C I C I O 2
 		
-		System.out.print("\nIngrese el primer número: ");
+		System.out.print("\nIngrese el primer nï¿½mero: ");
 		num1 = teclado.nextInt();
 		
-		System.out.print("Ingrese el segundo número: ");
+		System.out.print("Ingrese el segundo nï¿½mero: ");
 		num2 = teclado.nextInt();
 		
-		System.out.print("Ingrese el tercer número: ");
+		System.out.print("Ingrese el tercer nï¿½mero: ");
 		num3 = teclado.nextInt();
 		
 		if (num1 > 0 && num2 >0) 
@@ -59,7 +58,7 @@ public class desafios {
 			System.out.print("Bienvenido Pepito");
 		
 		if (usuario.equals("Pepito"))
-			System.out.print("Contraseña incorrecta");
+			System.out.print("Contraseï¿½a incorrecta");
 		
 		if (clave.equals("1234"))
 			System.out.print("Usuario incorrecto");
